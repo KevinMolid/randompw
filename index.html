@@ -14,17 +14,26 @@
     <div id="main-container">
       <h1>Generate a <br><span class="green">random password</span></h1>
       <h4>Never use an insecure password again.</h4>
-      <button>Generate passwords</button>
+      <!-- Rounded switch -->
+      <div id="slider-wrapper">
+        <label class="switch">
+          <input type="checkbox" onchange="setCharacters()" Checked>
+          <span class="slider round"></span>
+        </label>
+        <p>Include symbols</p>
+      </div>
+      <button onclick="generatePasswords()">Generate passwords</button>
       <hr>
       <div id="pw-wrapper">
         <div class="pw-field">
-          <p id="pw1-el">Hello!</p>
+          <p id="pw1-el"></p>
         </div>
         <div class="pw-field">
-          <p id="pw2-el">bahrRINAfds</p>
+          <p id="pw2-el"></p>
         </div>
       </div>
     </div>
+    <script src="index.js"></script>
   </body>
 
 </html>
