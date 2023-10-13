@@ -4,7 +4,7 @@ let characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P
 "$","%","^","&","*","(",")","_","-","+","=","{","[","}","]",",","|",":",";","<",">",".","?",
 "/"]
 
-let includeSymbols = false
+let includeSymbols = true
 let pwLength = 15
 
 let pw1El = document.getElementById("pw1-el")
